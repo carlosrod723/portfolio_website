@@ -15,6 +15,10 @@ body {
     padding: 20px;
 }
 
+.header {
+    margin-top: 50px;
+}
+
 .header h1 {
     font-size: 3em;
     font-weight: bold;
@@ -42,6 +46,6 @@ body {
     max-width: 800px;
     font-size: 1em;
     font-weight: bold;
-    margin: 20px 0;
+    margin: 100px 0 20px 0;  /* Increased margin to push the paragraph lower */
 }
 
