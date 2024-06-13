@@ -2,38 +2,37 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Courier New', Courier, monospace;
-    background: url('images/background.jpg') no-repeat center center fixed;
+    background: url('../images/Background-1.png') no-repeat center center fixed;
     background-size: cover;
     color: white;
-}
-
-.container {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    text-align: center;
 }
 
-.header {
+.container {
+    text-align: center;
     background-color: rgba(0, 0, 0, 0.7);
-    padding: 20px;
+    padding: 30px;
     border-radius: 10px;
 }
 
 .header h1 {
     font-size: 3em;
+    margin: 0;
 }
 
 .header h2 {
     font-size: 1.5em;
     font-weight: normal;
+    margin: 10px 0 20px;
 }
 
 .social-links img {
     width: 40px;
     height: 40px;
-    margin: 10px;
+    margin: 0 10px;
     transition: transform 0.3s;
 }
 
