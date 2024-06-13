@@ -1,13 +1,19 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Courier New', Courier, monospace;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background: url('images/background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
 }
 
 .container {
     text-align: center;
     padding: 50px;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    display: inline-block;
+    margin-top: 100px;
 }
 
 .header h1 {
@@ -17,7 +23,7 @@ body {
 
 .header h2 {
     font-size: 1.5em;
-    color: #888;
+    color: #aaa;
     margin-top: 0;
 }
 
