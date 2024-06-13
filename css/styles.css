@@ -1,9 +1,10 @@
 body {
     margin: 0;
-    padding: 0;
     font-family: 'Courier New', Courier, monospace;
     background: url('../images/Background-1.png') no-repeat center center fixed;
     background-size: cover;
+    color: #fff;
+    text-align: center;
 }
 
 .container {
@@ -12,20 +13,21 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh;
-    text-align: center;
-    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.header {
+    background-color: rgba(0, 0, 0, 0.7);
     padding: 20px;
     border-radius: 10px;
 }
 
 .header h1 {
-    font-size: 36px;
-    color: #fff;
+    font-size: 3em;
 }
 
 .header h2 {
-    font-size: 24px;
-    color: #aaa;
+    font-size: 1.5em;
+    margin-top: 10px;
 }
 
 .social-links {
@@ -34,22 +36,20 @@ body {
 
 .social-links img {
     width: 40px;
-    height: 40px;
     margin: 0 10px;
-    transition: transform 0.2s;
+    transition: transform 0.3s;
 }
 
 .social-links img:hover {
-    transform: scale(1.1);
+    transform: scale(1.2);
 }
 
 .welcome-message {
-    margin-top: 20px;
-    font-size: 18px;
-    color: #ddd;
-    max-width: 600px;
     background-color: rgba(0, 0, 0, 0.7);
-    padding: 10px;
+    padding: 20px;
     border-radius: 10px;
+    margin-top: 20px;
+    width: 80%;
+    max-width: 600px;
 }
 
