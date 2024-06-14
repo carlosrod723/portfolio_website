@@ -2,47 +2,56 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Courier New', Courier, monospace;
-    background: url('https://raw.githubusercontent.com/carlosrod723/portfolio_website/main/images/Background-1.png') no-repeat center center fixed;
+    background: url('../images/Background-1.png') no-repeat center center fixed;
     background-size: cover;
-    color: white;
+    color: #FFFFFF;
 }
 
 .container {
-    text-align: center;
-    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 100vh;
 }
 
 .header {
-    margin-top: 50px;
-}
-
-.header h1 {
-    font-size: 3em;
-}
-
-.header h2 {
-    font-size: 2em;
+    text-align: center;
+    margin-top: 50px; /* Adjust this value to move the header */
     margin-bottom: 20px;
 }
 
+h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+h2 {
+    font-size: 2em;
+    margin: 10px 0;
+}
+
 .social-links {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    margin-bottom: 40px;
+    margin-top: 20px; /* Adjust this value to move the icons up or down */
 }
 
 .social-links img {
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
+    margin: 0 10px;
 }
 
 .intro {
-    max-width: 800px;
-    margin: auto;
-    padding-top: 50px; 
-    font-size: 1.2em;
-    font-weight: bold;
     text-align: center;
+    max-width: 1000px; /* Make the paragraph wider */
+    margin-top: auto;
+    margin-bottom: 50px;
+    padding-top: 500px; /* Move the intro text below the light */
+}
+
+.intro p {
+    font-size: 1.2em;
+    line-height: 1.5;
+    font-weight: bold; /* Make the text bold */
 }
 
