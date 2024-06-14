@@ -1,57 +1,53 @@
-body {
+/* styles.css */
+body, html {
     margin: 0;
     padding: 0;
     font-family: 'Courier New', Courier, monospace;
+    color: white;
     background: url('../images/Background-1.png') no-repeat center center fixed;
     background-size: cover;
-    color: #FFFFFF;
 }
 
 .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    min-height: 100vh;
+    text-align: center;
+    padding-top: 50px;
 }
 
 .header {
-    text-align: center;
-    margin-top: 50px; /* Adjust this value to move the header */
     margin-bottom: 20px;
 }
 
-h1 {
-    font-size: 3em;
+.header h1 {
+    font-size: 48px;
     margin: 0;
 }
 
-h2 {
-    font-size: 2em;
-    margin: 10px 0;
+.header h2 {
+    font-size: 24px;
+    margin: 0;
+    color: #aaa;
 }
 
 .social-links {
-    margin-top: 20px; /* Adjust this value to move the icons up or down */
+    margin: 20px 0;
+}
+
+.social-links a {
+    margin: 0 10px;
+    display: inline-block;
+    vertical-align: middle;
 }
 
 .social-links img {
-    width: 40px;
+    width: 40px; /* Make sure all icons are the same size */
     height: 40px;
-    margin: 0 10px;
 }
 
 .intro {
-    text-align: center;
-    max-width: 1000px; /* Make the paragraph wider */
-    margin-top: auto;
-    margin-bottom: 50px;
-    padding-top: 500px; /* Move the intro text below the light */
-}
-
-.intro p {
-    font-size: 1.2em;
-    line-height: 1.5;
-    font-weight: bold; /* Make the text bold */
+    font-size: 18px;
+    width: 80%;
+    margin: auto;
+    margin-top: 300px; /* Move it lower on the page */
+    font-weight: bold;
 }
 
